@@ -24,7 +24,7 @@
 	font-size: 14px;
 	font-family: 'Inter', sans-serif;
 	color: hsl(0, 0%, 100%);
-    text-align: center;
+	text-align: center;
 }
 .profile__card {
 	display: flex;
@@ -34,7 +34,6 @@
 	max-width: 320px;
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 15px;
-	opacity: 0.6;
 }
 
 .profile__img {
@@ -73,24 +72,19 @@
 		border-radius: 8px;
 		border: none;
 		cursor: pointer;
-		transition: background-color .3s;
+		color: hsl(0, 0%, 100%);
+		font-weight: 700;
+		transition: color 0.3s;
+		transition: background-color 0.3s, color 0.3s;
 	}
 	.profile__button:nth-last-child(1) {
 		margin-bottom: 0;
-	}
-	.profile__link {
-		text-decoration: none;
-		color: hsl(0, 0%, 100%);
-		font-weight: 700;
-        transition: color .3s;
 	}
 
 	.profile__button:hover,
 	.profile__button:focus {
 		background-color: hsl(75, 94%, 57%);
-		.profile__link {
-			color: hsl(0, 0%, 8%);
-		}
+		color: hsl(0, 0%, 8%);
 	}
 }
 

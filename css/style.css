@@ -36,7 +36,6 @@
   max-width: 320px;
   background-color: hsl(0, 0%, 12%);
   border-radius: 15px;
-  opacity: 0.6;
 }
 
 .profile__img {
@@ -77,23 +76,17 @@
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  transition: color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 .profile__links .profile__button:nth-last-child(1) {
   margin-bottom: 0;
 }
-.profile__links .profile__link {
-  text-decoration: none;
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  transition: color 0.3s;
-}
 .profile__links .profile__button:hover,
 .profile__links .profile__button:focus {
   background-color: hsl(75, 94%, 57%);
-}
-.profile__links .profile__button:hover .profile__link,
-.profile__links .profile__button:focus .profile__link {
   color: hsl(0, 0%, 8%);
 }
 
