@@ -45,20 +45,22 @@
 }
 
 .profile__data {
+  font-size: 20px;
   font-weight: 500;
   padding: 0.25em 0;
 }
 
 .profile__location {
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(75, 94%, 57%);
   font-weight: 700;
   margin-bottom: 3em;
 }
 
 .profile__info {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 .profile__links {
@@ -82,7 +84,7 @@
   transition: background-color 0.3s, color 0.3s;
 }
 .profile__links .profile__button:nth-last-child(1) {
-  margin-bottom: 0;
+  margin-bottom: 0.75em;
 }
 .profile__links .profile__button:hover,
 .profile__links .profile__button:focus {
