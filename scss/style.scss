@@ -32,7 +32,6 @@
 	align-items: center;
 	flex-basis: 360px;
 	padding: 1.75em;
-	// min-width: 320px;
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 15px;
 }
@@ -45,7 +44,7 @@
 .profile__data {
 	font-size: 26px;
 	font-weight: 500;
-	// padding: 0.25em 0;
+	padding: 0.25em 0;
 }
 .profile__location {
 	font-size: 14px;
